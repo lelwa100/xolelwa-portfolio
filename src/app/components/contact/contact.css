@@ -1,0 +1,52 @@
+.contact{
+    min-height:70vh;
+    padding:120px 8%;
+    background:#F7F3EC;
+    text-align:center;
+}
+
+.contact h2{
+    font-size:42px;
+    color:#1D1D1B;
+    margin-bottom:20px;
+}
+
+.contact p{
+    color:#595552;
+    line-height:1.8;
+}
+
+.contact-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:50px;
+    flex-wrap:wrap;
+}
+
+.contact-card{
+    background:#FFFFFF;
+    width:260px;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 15px 30px rgba(0,0,0,0.08);
+    transition:.3s;
+}
+
+.contact-card:hover{
+    transform:translateY(-8px);
+}
+
+.contact-card h3{
+    color:#7C8878;
+    margin-bottom:15px;
+}
+
+.contact-card a{
+    color:#595552;
+    text-decoration:none;
+}
+
+.contact-card a:hover{
+    color:#6F7B6B;
+}
